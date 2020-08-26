@@ -246,7 +246,7 @@ pkg install neofetch
 pkg install nano
 figlet -f slant " S U K S E S "|lolcat
 fi
-If [ $pil = 19] 
+if [ $pil = 19] 
 then 
 Clear 
 figlet -f slant "W A I T"|lolcat 
